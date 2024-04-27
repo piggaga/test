@@ -24,6 +24,3 @@ function onPageVisit() {
 window.onload = function() {
   updateStats(); // 更新顯示
 };
-
-// 每秒更新一次觀看人數和CPU容量
-setInterval(onPageVisit, 1000); // 1000毫秒 = 1秒
